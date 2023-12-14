@@ -1,0 +1,22 @@
+{
+  "name": "@bugsbeacon/web",
+  "version": "0.0.1",
+  "description": "JavaScript SDK for BugsBeacon: Error Tracking and Performance Monitoring for React Apps.",
+  "author": "BugsBeacon",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
